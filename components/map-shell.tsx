@@ -26,7 +26,7 @@ type MapShellProps = {
   onToggleMute: () => void
 }
 
-const SF_CENTER: [number, number] = [-122.4167, 37.7793]
+const TORONTO_CENTER: [number, number] = [-79.3832, 43.6532]
 const MAP_STYLE = "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json"
 // Oblique camera reads closer to isometric / retro city builders.
 const MAP_PITCH = 54
@@ -793,7 +793,7 @@ export function MapShell({
     const map = new maplibregl.Map({
       container: containerRef.current,
       style: MAP_STYLE,
-      center: SF_CENTER,
+      center: TORONTO_CENTER,
       zoom: 11.95,
       pitch: MAP_PITCH,
       bearing: MAP_BEARING,

@@ -15,7 +15,7 @@ import { MapShell } from "@/components/map-shell"
 export function SfAiMap() {
   const [search, setSearch] = useState("")
   const [category, setCategory] = useState<CompanyCategory | "All">("All")
-  const [selectedSlug, setSelectedSlug] = useState("openai")
+  const [selectedSlug, setSelectedSlug] = useState("cohere")
   const [isAudioMuted, setIsAudioMuted] = useState(true)
   const audioRef = useRef<HTMLAudioElement | null>(null)
 

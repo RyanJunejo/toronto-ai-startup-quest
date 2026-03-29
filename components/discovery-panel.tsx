@@ -67,7 +67,7 @@ export function DiscoveryPanel({
               priority
             />
             <h1 className="font-[family-name:var(--font-pixel)] text-lg leading-relaxed tracking-tight text-[#ffe66d]">
-              SF AI
+              Toronto AI
               <br />
               Startup Map
             </h1>
@@ -88,7 +88,7 @@ export function DiscoveryPanel({
             <input
               value={search}
               onChange={(event) => onSearchChange(event.target.value)}
-              placeholder="OpenAI, agents, voice..."
+              placeholder="Cohere, agents, health..."
               className="h-11 w-full border-2 border-[#3a3a5e] bg-[#1a1a2e] pr-4 pl-10 text-sm text-[#f0f7e6] transition-colors outline-none placeholder:text-[#f0f7e6]/30 focus:border-[#4ecdc4]"
             />
           </span>

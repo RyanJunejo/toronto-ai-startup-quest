@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: pageDescription,
     type: "website",
     url: siteUrl,
-    siteName: "SF AI Startup Map",
+    siteName: "Toronto AI Startup Map",
     images: [ogImage],
   },
   twitter: {

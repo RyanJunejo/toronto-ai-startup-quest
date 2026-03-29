@@ -1,14 +1,14 @@
 export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
 
 export const pageTitle =
-  "SF AI Startup Map: Explore AI Native Startups in San Francisco"
+  "Toronto AI Startup Map: Explore AI Native Startups in Toronto"
 
 export const pageDescription =
-  "Browse AI-native startups across San Francisco on an interactive retro quest map, with pixel-art visuals, category filters, and direct company links."
+  "Browse AI-native startups across Toronto on an interactive retro map, with category filters, source-backed locations, and direct company links."
 
 export const ogImage = {
-  url: "/ogp-sf-ai-startup-map.png",
+  url: "/ogp-ai-startup-map.png",
   width: 1367,
   height: 768,
-  alt: "SF Startup Quest pixel-art key visual",
+  alt: "Toronto AI Startup Map key visual",
 } as const
