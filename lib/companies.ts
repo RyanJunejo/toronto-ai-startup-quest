@@ -219,4 +219,19 @@ export const COMPANIES: Company[] = [
     sourceUrl: "https://www.nuralogix.ai/terms-of-use/",
     sourceLabel: "NuraLogix terms of use",
   },
+  {
+    slug: "nationgraph",
+    name: "NationGraph",
+    website: "https://www.nationgraph.com",
+    shortDescription:
+      "AI-driven sales intelligence platform for public-sector business development.",
+    whyItMatters:
+      "A Toronto-present company building AI workflows around government procurement and sales intelligence.",
+    category: "Agents",
+    locationLabel: "180 Dundas St W, Toronto, ON M5G 1Z8",
+    coordinates: [-79.3866688, 43.6554784],
+    founded: 2024,
+    sourceUrl: "https://ca.linkedin.com/company/nationgraph",
+    sourceLabel: "NationGraph LinkedIn company profile",
+  },
 ]
